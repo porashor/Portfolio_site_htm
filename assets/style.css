@@ -1,0 +1,112 @@
+/* all applied css  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Popins", sans-serif;
+}
+
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* header area css  */
+#header{
+    position: fixed;
+    width: 100%;
+    padding: 2rem 9%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: var(--bg-color);
+}
+
+#header header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: var(--text-color);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-area{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav-area a{
+    color: var(--text-color);
+    transition: all;
+    transition-duration: 500ms;
+}
+.nav-area a:hover,
+.nav-area a.active{
+    color: var(--main-color);
+}
+
+#menu{
+    color: var(--text-color);
+    font-size: 20px;
+    display: none;
+}
+
+/* home area css  */
+#home{
+    margin: 70px auto;
+    width: 90%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns:  1fr 1fr;
+    min-height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image-area{
+    padding: 18px ;
+    background-color: var(--main-color);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+    scale: 1.017;
+}
