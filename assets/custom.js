@@ -1,1 +1,1 @@
-document.querySelector(.social-media).innerHTML = "sadf"
+document.querySelector(".social-media").innerHTML = "sadf"
