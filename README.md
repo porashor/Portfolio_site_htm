@@ -1,2 +1,1 @@
-<img src="./assets/image
-/newImg.jpeg"/>
+<img src="./assert/image/newImage.jpeg"/>
